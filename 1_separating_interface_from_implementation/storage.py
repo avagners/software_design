@@ -111,6 +111,6 @@ if __name__ == "__main__":
     storage.save("Data 3")
 
     # Извлекаем данные по ID
-    print("Data at ID 1:", storage.retrieve(101))
+    print("Data at ID 1:", storage.retrieve(101))  # Data at ID 1: None
     print("Data at ID 2:", storage.retrieve(2))
     print("Data at ID 3:", storage.retrieve(3))
