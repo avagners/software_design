@@ -1,4 +1,8 @@
-Возможная реализация функции findMax:
+Тройка Хоара:
+
+`{arr.length > 0} findMax(arr) {result = max(arr)}`
+
+Возможная реализация функции `findMax`:
 
 ```python
 def findMax(arr):
