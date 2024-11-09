@@ -9,7 +9,7 @@
 
 `{low, high — индексы в arr, pivot = arr[high]}partition(arr, low, high){arr[low ... pivot_index - 1] <= pivot <= arr[pivot_index + 1 ... high]}`
 
-**Предусловие**: `low` и `high` — допустимые индексы массива arr.  
+**Предусловие**: `low` и `high` — допустимые индексы массива `arr`.  
 **Постусловие**: элементы в `arr` разделены относительно `pivot`, возвращается `pivot_index`.  
 
 ## Доказательство корректности  
